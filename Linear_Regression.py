@@ -39,9 +39,9 @@ from sklearn.metrics import r2_score,mean_squared_error
 
 # X = study hours (input)
 # y = exam scores (output)
-#Both X and Y have same size is compulsary
+#Both X and Y have same size 
 X= np.array([1,2,3,4,5,6,7,8,9,10])
-Y=np.array([12,20,30,40,50,60,70,80,90,100])
+Y=np.array([10,20,30,40,50,60,70,80,90,100])
 #Divide the data into two steps test and training 80%training 20% testing
 X=X.reshape(-1,1)#sklearn ko 2 d array chaye
 X_train,X_test,y_train,y_test = train_test_split(X,Y,test_size=0.2,random_state=42)
