@@ -53,6 +53,7 @@ model.fit(X_train,y_train)
 
 print("Slope (m):", round(model.coef_[0], 2))
 
+
 print("Intercept (b):", round(model.intercept_, 2))
 
 #Make Prediction
